@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
+
+:root{
+    --color-background: #FFA299;
+    --color-title: #AD6989;
+    --color-subtitle: #562349;
+    --color-message: #FEE2B3;
+
+    --font-title: "Cabin"  ;  
+    --font-message: "Modern Antiquity";
+}
+body{
+    background-color: var(--color-background);
+    color: #AD6989;
+}
