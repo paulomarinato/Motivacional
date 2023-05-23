@@ -3,15 +3,45 @@
 
 
 :root{
-    --color-background: #FFA299;
-    --color-title: #AD6989;
-    --color-subtitle: #562349;
-    --color-message: #FEE2B3;
+    --color-background: #FEE2B3;
+    --color-title: #562349;
+    --color-subtitle: #AD6989;
+    --color-message: #FFA299;
 
     --font-title: "Cabin"  ;  
     --font-message: "Modern Antiquity";
 }
+
 body{
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-weight: 700;
     background-color: var(--color-background);
-    color: #AD6989;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+    width: 100%;
+}
+
+.title{   
+    margin: 0.5em; 
+    margin-top: 3em;    
+    display: flex;
+    color: var(--color-title);    
+}
+
+.button{
+    padding: 1.5em;       
+    font-size: 700;    
+    color: var(--color-background);
+    font-size: 1.5em;
+    background-color: var(--color-title);
+}
+
+.baseboard{
+    padding: 1em;
+    margin: 1em;
+    margin-top: 9em;
+    
+
 }
