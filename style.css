@@ -1,104 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Modern+Antiqua&family=Rubik:wght@400;900&display=swap');
+@import url("Styles/header.css");
+@import url("Styles/title.css");
+@import url("Styles/button.css");
+@import url("Styles/baseboard.css");
+
 
 :root{
-    --color-background: #FEE2B3;
-    --color-title: #562349;
-    --color-subtitle: #AD6989;
-    --color-message: #FFA299;
+    --color-header: #1C0A00;
+    --color-background: #603601;
+    --color-button: #361500;
 
-    --font-title: "Cabin"  ;  
-    --font-message: "Modern Antiquity";
+    --color-title: #CC9544;
+    --color-subtitle: #FEF7DC;    
+    --color-destaque: #E5890A;
+
+    --font-tile: 'Rubik',;
+    --font-subtitle: 'Cabin',;
+    --font-message: 'Modern Antiqua',;    
 }
 
-body{    
-    font-size: 1.5rem;
-    font-weight: 700;
-    background-color: var(--color-background);    
-    text-align: center;      
+body{      
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;     
+    text-align: center;
+    background-color: var(--color-background);
+    color: var(--color-title);
+    font-family: var(--font-tile);        
 }
-
-@media screen and (min-width: 280px) {
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100vh;
-        font: var(--font-title);
-        color: var(--color-title);
-        font-weight: 700;
-              
-    }
-
-    .header{
-        background-color: var(--color-background);  
-        padding: 0.5em;        
-        border: 1px solid var(--color-subtitle);
-        background-color: var(--color-subtitle);
-        color: var(--color-background)
-        width: 100vw;
-        font-size: 2.2em;               
-    }
-    
-    .title{  
-        font-size: 1.5em; 
-
-    }
-
-    .title_2{
-        font-size: 1.2em; 
-    }
-    
-    .button_moticacional{     
-        color: var(--color-background);
-        font-size: 2em; 
-        background-color: var(--color-title);
-        width: 100vw;
-        padding: 0.5em;
-    }
-    
-    .button_autoajuda{     
-        color: var(--color-background);
-        font-size: 2em; 
-        background-color: var(--color-title);
-        width: 100vw;
-        padding: 0.5em;
-    }
-
-    .button_biblia{     
-        color: var(--color-background);
-        font-size: 2em; 
-        background-color: var(--color-title);
-        width: 100vw;
-        padding: 0.5em;
-    }
-
-    .button_humor{     
-        color: var(--color-background);
-        font-size: 2em;  
-        background-color: var(--color-title);
-        width: 100vw;
-        padding: 0.5em;
-    }
-
-    .baseboard{
-        background-color: var(--color-background);  
-        padding: 0.5em;        
-        border: 1px solid var(--color-subtitle);
-        background-color: var(--color-subtitle);
-        color: var(--color-background)
-        width: 100vw;
-        font-size: 2.0em;
-        font-weight: 700;
-    }
- 
-}
-
-@media screen and (min-width: 728px) {
-    
-  }
-  
-  @media screen and (min-width: 1200px) {
-    
-  }
 

@@ -1,0 +1,19 @@
+
+
+@media screen and (min-width: 280px){
+    .baseboard{  
+        padding: 0.5em;       
+        background-color: var(--color-header);
+        color: var(--color-subtitle);
+        width: 100%; 
+        font-size: 1.1em; 
+    }    
+}
+
+@media screen and (min-width: 728px) {
+    
+}
+  
+@media screen and (min-width: 1200px) {
+    
+}

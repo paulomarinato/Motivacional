@@ -1,0 +1,39 @@
+
+
+@media screen and (min-width: 280px){
+    .button_moticacional{     
+        color: var(--color-subtitle);
+        font-size: 1.6em; 
+        background-color: var(--color-button);
+        width: 100%;            
+    }
+    
+    .button_autoajuda{     
+        color: var(--color-subtitle);
+        font-size: 1.6em; 
+        background-color: var(--color-button);
+        width: 100%;           
+    }
+
+    .button_biblia{     
+        color: var(--color-subtitle);
+        font-size: 1.6em; 
+        background-color: var(--color-button);
+        width: 100%;           
+    }
+
+    .button_humor{     
+        color: var(--color-subtitle);
+        font-size: 1.6em; 
+        background-color: var(--color-button);
+        width: 100%;      
+    }   
+}
+
+@media screen and (min-width: 728px) {
+    
+}
+  
+@media screen and (min-width: 1200px) {
+    
+}

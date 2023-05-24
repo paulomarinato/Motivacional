@@ -1,0 +1,24 @@
+
+
+@media screen and (min-width: 280px){
+    .title{  
+        font-size: 1.5em;
+        font-family: var(--font-message);
+    }
+
+    .title_2{
+        font-size: 1.2em;        
+    }
+
+    .title_item{
+        color: var(--color-destaque);
+    }
+}
+
+@media screen and (min-width: 728px) {
+    
+}
+  
+@media screen and (min-width: 1200px) {
+    
+}
