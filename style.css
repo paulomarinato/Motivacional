@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Modern+Antiqua&family=Rubik:wght@400;900&display=swap');
+
 @import url("Styles/header.css");
 @import url("Styles/title.css");
 @import url("Styles/button.css");
@@ -6,28 +6,27 @@
 
 
 :root{
-    --color-header: #1C0A00;
-    --color-background: #603601;
-    --color-button: #361500;
+    --header: #1C0A00;
+    --background: #603601;
+    --button: #361500;
 
-    --color-title: #CC9544;
-    --color-subtitle: #FEF7DC;    
-    --color-destaque: #E5890A;
+    --title: #CC9544;
+    --subtitle: #FEF7DC;    
+    --destaque: #E5890A;
 
-    --font-tile: 'Rubik',;
-    --font-subtitle: 'Cabin',;
-    --font-message: 'Modern Antiqua',;    
+    --font-tile: 'Rubik', sans-serif;
+    --font-subtitle: 'Cabin', sans-serif;
+    --font-message: 'Modern Antiqua', cursive;   
 }
 
 body{      
     display: flex;    
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
-    width: 100%;     
-    text-align: center;
-    background-color: var(--color-background);
-    color: var(--color-title);
-    font-family: var(--font-tile);        
+    height: 100%;
+    width: 100%;
+    text-align: center;    
+    background-color: var(--background);
+    color: var(--title); 
 }
 

@@ -2,10 +2,11 @@
 
 @media screen and (min-width: 280px){
     .header{               
-        background-color: var(--color-header);
-        color: var(--color-subtitle);
+        background-color: var(--header);
+        color: var(--subtitle);
         width: 100%;       
-        font-size: 2.0em;                          
+        font-size: 2.0em;
+        text-align: center;                         
     }
 }
 

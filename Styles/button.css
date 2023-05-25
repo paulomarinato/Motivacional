@@ -1,33 +1,19 @@
 
+li{
+    list-style: none;
+}
+.card_item{
+    padding-bottom: 12px;
+    width: 100%;
+}
 
 @media screen and (min-width: 280px){
-    .button_moticacional{     
-        color: var(--color-subtitle);
-        font-size: 1.6em; 
-        background-color: var(--color-button);
-        width: 100%;            
-    }
-    
-    .button_autoajuda{     
-        color: var(--color-subtitle);
-        font-size: 1.6em; 
-        background-color: var(--color-button);
-        width: 100%;           
-    }
-
-    .button_biblia{     
-        color: var(--color-subtitle);
-        font-size: 1.6em; 
-        background-color: var(--color-button);
-        width: 100%;           
-    }
-
-    .button_humor{     
-        color: var(--color-subtitle);
-        font-size: 1.6em; 
-        background-color: var(--color-button);
-        width: 100%;      
-    }   
+    .button_moticacional, .button_autoajuda, .button_biblia, .button_humor{     
+        color: var(--subtitle);
+        font-size: 1.4em; 
+        background-color: var(--button);
+        width: 100%;
+    }    
 }
 
 @media screen and (min-width: 728px) {

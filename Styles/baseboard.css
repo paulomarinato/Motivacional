@@ -2,11 +2,12 @@
 
 @media screen and (min-width: 280px){
     .baseboard{  
-        padding: 0.5em;       
-        background-color: var(--color-header);
-        color: var(--color-subtitle);
+        padding: 0.9em;       
+        background-color: var(--header);
+        color: var(--title);
         width: 100%; 
-        font-size: 1.1em; 
+        font-size: 1.3em;
+        text-align: center; 
     }    
 }
 

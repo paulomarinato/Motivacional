@@ -2,16 +2,21 @@
 
 @media screen and (min-width: 280px){
     .title{  
-        font-size: 1.5em;
-        font-family: var(--font-message);
+        font-size: 2em;
+        font-family: var(--font-title);
+        
     }
 
     .title_2{
-        font-size: 1.2em;        
+        font-size: 1.4em;
+        text-align: left;
+        color: var(--subtitle);
+        font-family: var(--font-title);
+        text-align: center;         
     }
 
     .title_item{
-        color: var(--color-destaque);
+        color: var(--destaque);
     }
 }
 
