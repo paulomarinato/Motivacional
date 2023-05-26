@@ -27,13 +27,9 @@
 body{      
     display: flex;    
     flex-direction: column;
-    justify-content: space-between;    
     text-align: center;  
     background-color: var(--background);
-    color: var(--title);
-    height: 100%;
-    width: 100%;
-    max-width: 280px;
+    color: var(--title);    
     margin: 0 auto;
 }
 
