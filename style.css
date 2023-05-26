@@ -29,7 +29,6 @@ body{
     flex-direction: column;
     text-align: center;  
     background-color: var(--background);
-    color: var(--title);    
-    margin: 0 auto;
+    color: var(--title);
 }
 
