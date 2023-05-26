@@ -1,30 +1,14 @@
 
+let numberRandom = document.getElementById('numberRandom');
+let numbertarget = document.getElementById('numbertarget');
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Obtém o botão e o elemento de exibição do número
-var gerarNumeroBtn = document.getElementById('gerarNumeroBtn');
-var numeroGerado = document.getElementById('numeroGerado');
-
-// Adiciona um listener de clique ao botão
-gerarNumeroBtn.addEventListener('click', function() {
-  // Gera um número aleatório entre 1 e 100
-  var numero = Math.floor(Math.random() * 50) + 1;
+numberRandom.addEventListener('click', function() {
   
-  // Exibe o número gerado
-  numeroGerado.textContent = "Número Gerado: " + numero;
-});*/
+  let number = Math.floor(Math.random() * 50) + 1;
+  
+  
+  numbertarget.textContent = "Número Gerado: " + number;
+});
+
+console.log("numbertarget");
