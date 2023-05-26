@@ -3,8 +3,10 @@ li{
     list-style: none;
 }
 .card_item{
-    padding-bottom: 12px;
+    padding-bottom: 10px;
     width: 100%;
+    
+    
 }
 
 @media screen and (min-width: 280px){
@@ -12,7 +14,9 @@ li{
         color: var(--subtitle);
         font-size: 1.4em; 
         background-color: var(--button);
+        font-family: var(--font-title);
         width: 100%;
+        padding: 9px;
     }    
 }
 

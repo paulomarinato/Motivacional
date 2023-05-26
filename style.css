@@ -6,15 +6,15 @@
 
 
 :root{
-    --header: #1C0A00;
-    --background: #603601;
-    --button: #361500;
+    
+    --background: #F6F1F1;
+    --button: #6C9BCF;
+    --header: #8294C4;
+    --title: #577D86;
+    --subtitle: #4C3D3D;    
+    --destaque: #569DAA;
 
-    --title: #CC9544;
-    --subtitle: #FEF7DC;    
-    --destaque: #E5890A;
-
-    --font-tile: 'Rubik', sans-serif;
+    --font-title: 'Rubik', sans-serif;
     --font-subtitle: 'Cabin', sans-serif;
     --font-message: 'Modern Antiqua', cursive;   
 }
