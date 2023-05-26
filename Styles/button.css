@@ -10,11 +10,11 @@ li{
 }
 
 @media screen and (min-width: 280px){
-    .button_moticacional, .button_autoajuda, .button_biblia, .button_humor{     
-        color: var(--subtitle);
-        font-size: 1.4em; 
+    .button_motivacional, .button_autoajuda, .button_biblia, .button_humor{
         background-color: var(--button);
+        color: var(--subtitle);
         font-family: var(--font-title);
+        font-size: 1.4em; 
         width: 100%;
         padding: 9px;
     }    

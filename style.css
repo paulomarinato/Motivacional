@@ -7,26 +7,33 @@
 
 :root{
     
-    --background: #F6F1F1;
-    --button: #6C9BCF;
+    --background: #B4E4FF;
+    --button: #1F8A70;
     --header: #8294C4;
-    --title: #577D86;
-    --subtitle: #4C3D3D;    
-    --destaque: #569DAA;
+
+    --title: #1C82AD;
+    --subtitle: #DFFFD8;    
+    --destaque: #00337C;
 
     --font-title: 'Rubik', sans-serif;
     --font-subtitle: 'Cabin', sans-serif;
     --font-message: 'Modern Antiqua', cursive;   
 }
 
+* {
+    box-sizing: border-box;
+  }  
+
 body{      
     display: flex;    
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;    
+    text-align: center;  
+    background-color: var(--background);
+    color: var(--title);
     height: 100%;
     width: 100%;
-    text-align: center;    
-    background-color: var(--background);
-    color: var(--title); 
+    max-width: 280px;
+    margin: 0 auto;
 }
 
