@@ -4,7 +4,7 @@
     .baseboard{  
         padding: 0.4em;       
         background-color: var(--header);
-        color: var(--subtitle);
+        color: var(--destaque);
         width: 100%; 
         font-size: 1.3em;
         text-align: center;

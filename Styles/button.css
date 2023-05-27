@@ -13,7 +13,7 @@
         
         
     }
-    .button_motivacional, .button_autoajuda, .button_biblia, .button_humor{
+    .button_escolha{
         background-color: var(--button);
         color: var(--subtitle);
         font-family: var(--font-title);
