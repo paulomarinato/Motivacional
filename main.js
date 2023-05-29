@@ -1,5 +1,5 @@
 
-/*
+
 var frasesMotivacao = [
   "Acredite em si mesmo. Você é mais capaz do que imagina.",
   "Não importa o quão devagar você vá, desde que não pare.",
@@ -247,7 +247,10 @@ var botoes = document.getElementsByTagName("button_escolha");
 for (var i = 0; i < botoes.length; i++) {
   botoes[i].addEventListener("click", escolhaBoton);
 }
-*/
+
+
+
+/*
 
 const frasesMotivacao = [
   "Acredite em si mesmo. Você é mais capaz do que imagina.",
@@ -488,3 +491,4 @@ document.getElementById("button_humor").addEventListener("click", sortearItem);
 
 const resultadoElemento = document.getElementById("resultado");
 
+*/
