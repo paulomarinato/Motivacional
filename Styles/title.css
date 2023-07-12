@@ -1,5 +1,3 @@
-
-
 @media screen and (min-width: 280px){
     .title{  
         font-size: 1.6em;
@@ -17,12 +15,4 @@
     .title_item{
         color: var(--destaque);
     }
-}
-
-@media screen and (min-width: 728px) {
-    
-}
-  
-@media screen and (min-width: 1200px) {
-    
 }
