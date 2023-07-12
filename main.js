@@ -1,5 +1,5 @@
 
-
+// teste gabriella
 var frasesMotivacao = [
   "Acredite em si mesmo. Você é mais capaz do que imagina.",
   "Não importa o quão devagar você vá, desde que não pare.",
