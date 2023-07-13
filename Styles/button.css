@@ -1,4 +1,6 @@
-
+.button_choice{
+    cursor: pointer;
+} 
 
 
 @media screen and (min-width: 280px){
@@ -23,10 +25,3 @@
     }    
 }
 
-@media screen and (min-width: 728px) {
-    
-}
-  
-@media screen and (min-width: 1200px) {
-    
-}
