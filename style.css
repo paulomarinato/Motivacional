@@ -31,3 +31,7 @@ body{
     color: var(--title);
 }
 
+#resultado {
+    font-size: 2.3rem;
+    font-family: 'Modern Antiqua', sans-serif;;
+}
